@@ -2,6 +2,8 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import Notiflix from 'notiflix';
 
+
+
 function adjustElements() {
   const fieldElements = document.querySelectorAll('.field');
   const timerContainer = document.querySelector('.timer');
