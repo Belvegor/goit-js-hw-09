@@ -35,5 +35,6 @@ form.addEventListener('submit', async (event) => {
     }
 
     currentDelay += stepInput;
+      await new Promise((resolve) => setTimeout(resolve, currentDelay));
   }
 });
